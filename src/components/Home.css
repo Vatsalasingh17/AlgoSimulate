@@ -1,0 +1,78 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: indianred; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Main Container */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    max-width: 500px;
+}
+
+/* Title */
+h1 {
+    font-size: 3rem;
+    color:rgb(1, 1, 55);
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+}
+
+/* Styled Buttons */
+.homebutton {
+    background:none;
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    font-size: 1.2rem;
+    width: 350px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    outline: none;
+    box-shadow:none;
+    z-index: 1;
+}
+
+/* Hover & Active Effects */
+.homebutton:hover {
+    transform: translateY(-3px);
+    /* box-shadow: 0px 10px 20px rgba(26, 188, 156, 0.5); */
+}
+
+.homebutton:active {
+    transform: scale(0.95);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 12px 25px;
+    }
+
+    .container {
+        padding: 30px;
+    }
+}
