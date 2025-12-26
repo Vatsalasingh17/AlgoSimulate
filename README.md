@@ -16,3 +16,28 @@ Input custom data (pages, frames, disk requests)
 Observe algorithm execution visually
 
 Compare performance using metrics like page faults and seek time
+
+**🧠 Algorithms Implemented
+📄 Page Replacement Algorithms
+**
+These algorithms manage memory by deciding which page to remove when a new page needs to be loaded.
+
+**FIFO (First In First Out)**
+
+Replaces the oldest loaded page
+
+**LRU (Least Recently Used)**
+
+Replaces the page that hasn’t been used for the longest time
+
+**Optimal Page Replacement**
+
+Replaces the page that will not be used for the longest time in the future
+
+**🔹 Features**
+
+Step-by-step page replacement visualization
+
+Real-time page fault count
+
+Clear distinction between hits and faults
