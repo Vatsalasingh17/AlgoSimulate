@@ -34,7 +34,29 @@ Replaces the page that hasn’t been used for the longest time
 
 Replaces the page that will not be used for the longest time in the future
 
+**💽 Disk Scheduling Algorithms**
+
+These algorithms optimize disk head movement to reduce seek time.
+
+**FCFS (First Come First Serve)
+
+SSTF (Shortest Seek Time First)
+
+SCAN (Elevator Algorithm)
+
+C-SCAN (Circular SCAN)
+
+LOOK
+
+C-LOOK**
+
 **🔹 Features**
+
+Graphical visualization of disk head movement
+
+Automatic seek time calculation
+
+Comparison of head movement efficiency
 
 Step-by-step page replacement visualization
 
